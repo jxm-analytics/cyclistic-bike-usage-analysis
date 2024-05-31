@@ -65,9 +65,7 @@ The data provides detailed trip information, which allows for the analysis of us
 - Create new columns for ride length and day of the week.
 - Remove any irrelevant or duplicate entries.
 
-For this verification process, I used SQL to show the problems of the data, which are missing value, column names inconsistencies, duplicate rows, invalid date, and negative ride length on the datasets Q1 of 2020 and 2019. I took action to correct them. 
-
-**You can find the detailed calculation under SQL_Files for `clean.sql`**.
+For this verification process, I used SQL to show the problems of the data, which are missing value, column names inconsistencies, duplicate rows, invalid date, and negative ride length on the datasets Q1 of 2020 and 2019. I took action to correct them.  **You can find the detailed calculation under SQL_Files for `clean.sql`**.
 
 I used Excel Sheet to examine the `divvy_202004`, and `divvy_202005` datasets, and correct duplicate rows, null values, and negative ride length.
 
