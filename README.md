@@ -71,8 +71,8 @@ I used Excel Sheet to examine the `divvy_202004`, and `divvy_202005` datasets, a
 
 **Documentation**:
   
-The data structure is as above. The documentation gives the raw datasets and processed datasets for further analysis.
-In this phrase for the practice purpose, I used SQL and R programming did the same process twice and got the same results. Please see /Rcode for `RCode/Divvy_Trips_2019_Q1_process.R` and `RCode/2019_2020_Q1_combine_process.R`.
+The documentation gives the raw datasets and processed datasets for R programming, SQL data analysis and Tableau visualization.
+I used SQL and R programming did data prepare and data process at the same time, and analyze phrase next stage. Please see /Rcode for `RCode/Divvy_Trips_2019_Q1_process.R` and `RCode/2019_2020_Q1_combine_process.R`.
 
 ## Phase 4. Analyze
 **Data Analysis**:
