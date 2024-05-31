@@ -84,7 +84,7 @@ I used R programming and SQL did the following analysis:
 
 I used R programming to visualize above tasks: 
 This is my Kaggle Notebook portfolio for cyclistic bike share analysis:
-**https://www.kaggle.com/code/jake989/notebook4bcab63bc4**
+**https://www.kaggle.com/code/jake989/cyclistic-bike-share-analysis**
 
 **Key Findings**:
 •	Members account for a higher proportion of total rides.
