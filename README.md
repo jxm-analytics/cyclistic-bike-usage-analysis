@@ -2,6 +2,8 @@
 
 This case study explores how annual members and casual riders use Cyclistic’s bike-share system differently. By processing 12 months of trip data, we uncovered behavioral patterns that can drive targeted marketing efforts to boost memberships.
 
+> Tools: SQL,Excel, Tableau  
+> Scope: Customer segmentation, ride pattern analysis, marketing strategy
 ## Phases of Data Analysis
 
 ## Phase 1: Ask
