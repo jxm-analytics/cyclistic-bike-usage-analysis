@@ -1,4 +1,4 @@
-# 🚲 Cyclistic Bike Usage Case Study
+# Cyclistic Bike Usage Case Study
 
 This case study explores how annual members and casual riders use Cyclistic’s bike-share system differently. By analyzing over 5 million ride records, the project identifies key behavioral patterns to support a targeted digital marketing strategy aimed at increasing annual memberships.
 
@@ -7,18 +7,19 @@ This case study explores how annual members and casual riders use Cyclistic’s 
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
+
 - [Business Task](#business-task)
-- [Data Source & Preparation](#data-source--preparation)
-- [Data Cleaning & Processing](#data-cleaning--processing)
-- [Analysis & Visualization](#analysis--visualization)
+- [Data Source and Preparation](#data-source-and-preparation)
+- [Data Cleaning and Processing](#data-cleaning-and-processing)
+- [Analysis and Visualization](#analysis-and-visualization)
 - [Key Findings](#key-findings)
 - [Recommendations](#recommendations)
-- [Tools & Skills Used](#tools--skills-used)
+- [Tools and Skills Used](#tools-and-skills-used)
 
 ---
 
-## 🎯 Business Task
+## Business Task
 
 Cyclistic’s goal is to convert more casual riders into annual members. This analysis helps answer:
 - How do annual members and casual riders use bikes differently?
@@ -27,7 +28,7 @@ Cyclistic’s goal is to convert more casual riders into annual members. This an
 
 ---
 
-## 🗂️ Data Source & Preparation
+## Data Source and Preparation
 
 - Sourced from [Divvy Bikes via Motivate International Inc.](https://divvybikes.com/system-data)
 - Included monthly trip-level data for April 2020–2021
@@ -35,7 +36,7 @@ Cyclistic’s goal is to convert more casual riders into annual members. This an
 
 ---
 
-## 🧹 Data Cleaning & Processing
+## Data Cleaning and Processing
 
 - Removed duplicates and null values
 - Filtered out records with negative ride times
@@ -47,7 +48,7 @@ Cyclistic’s goal is to convert more casual riders into annual members. This an
 
 ---
 
-## 📊 Analysis & Visualization
+## Analysis and Visualization
 
 - Analyzed trip duration by rider type
 - Charted ride frequency by weekday and hour
@@ -56,7 +57,7 @@ Cyclistic’s goal is to convert more casual riders into annual members. This an
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 - Casual riders take longer rides, especially on weekends
 - Members ride more frequently on weekdays, likely for commuting
@@ -64,16 +65,16 @@ Cyclistic’s goal is to convert more casual riders into annual members. This an
 
 ---
 
-## 💡 Recommendations
+## Recommendations
 
-1. **Weekend Trials:** Offer weekend discounts to convert casual users
-2. **Targeted Ads:** Use ride behavior data to promote the value of memberships
-3. **Commuter Focus:** Emphasize weekday time savings and convenience for office workers
+1. **Weekend Trials:** Offer weekend discounts to convert casual users  
+2. **Targeted Ads:** Use ride behavior data to promote the value of memberships  
+3. **Commuter Focus:** Emphasize weekday time savings and convenience for office workers  
 
 ---
 
-## 🧠 Tools & Skills Used
+## Tools and Skills Used
 
-- **SQL (MySQL Workbench):** For data aggregation and validation
-- **Excel:** For cleaning and preprocessing
+- **SQL (MySQL Workbench):** For data aggregation and validation  
+- **Excel:** For cleaning and preprocessing  
 - **Tableau:** For data storytelling through interactive dashboards
