@@ -1,4 +1,4 @@
-# Cyclistic Bike Usage Case Study
+# 🚲 Cyclistic Bike Usage Case Study
 
 This case study explores how annual members and casual riders use Cyclistic’s bike-share system differently. By analyzing over 5 million ride records, the project identifies key behavioral patterns to support a targeted digital marketing strategy aimed at increasing annual memberships.
 
