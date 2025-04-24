@@ -1,7 +1,6 @@
-# Project Description: Cyclistic Bike-Share Analysis
+# 🚲 Cyclistic Bike Usage Case Study
 
-## Introduction
-As a junior data analyst on the marketing analyst team at Cyclistic, a bike-share company in Chicago, I was tasked with understanding how casual riders and annual members use Cyclistic bikes differently. The goal is to design a marketing strategy to convert casual riders into annual members, as annual members are more profitable for the company.
+This case study explores how annual members and casual riders use Cyclistic’s bike-share system differently. By processing 12 months of trip data, we uncovered behavioral patterns that can drive targeted marketing efforts to boost memberships.
 
 ## Phases of Data Analysis
 
