@@ -1,80 +1,86 @@
-# 🚲 Cyclistic Bike Usage Case Study
+# Cyclistic Rider Segmentation Strategy
 
-This case study explores how annual members and casual riders use Cyclistic’s bike-share system differently. By analyzing over 5 million ride records, the project identifies key behavioral patterns to support a targeted digital marketing strategy aimed at increasing annual memberships.
-
-**Tools:** SQL, Excel, Tableau  
-**Skills:** Data cleaning, customer segmentation, trend analysis, marketing insights
+This project analyzes behavioral data from a Chicago-based bike-sharing service, Cyclistic, to identify opportunities for converting casual riders into long-term subscribers. Using a full year of ride history, the project segments users by behavior patterns and provides actionable marketing recommendations based on usage trends.
 
 ---
 
 ## Table of Contents
 
-- [Business Task](#business-task)
-- [Data Source and Preparation](#data-source-and-preparation)
-- [Data Cleaning and Processing](#data-cleaning-and-processing)
-- [Analysis and Visualization](#analysis-and-visualization)
-- [Key Findings](#key-findings)
-- [Recommendations](#recommendations)
-- [Tools and Skills Used](#tools-and-skills-used)
+- [Project Objective](#project-objective)
+- [Business Questions](#business-questions)
+- [Tools and Techniques](#tools-and-techniques)
+- [Data Preparation](#data-preparation)
+- [Analysis Highlights](#analysis-highlights)
+- [Marketing Strategy Recommendations](#marketing-strategy-recommendations)
+- [Key Takeaways](#key-takeaways)
+- [Contact](#contact)
+- [License](#license)
 
 ---
 
-## Business Task
+## Project Objective
 
-Cyclistic’s goal is to convert more casual riders into annual members. This analysis helps answer:
-- How do annual members and casual riders use bikes differently?
-- What factors might motivate casual riders to become members?
-- How can Cyclistic leverage data to guide marketing campaigns?
-
----
-
-## Data Source and Preparation
-
-- Sourced from [Divvy Bikes via Motivate International Inc.](https://divvybikes.com/system-data)
-- Included monthly trip-level data for April 2020–2021
-- Fields include ride ID, start/end timestamps, rideable type, station names, and user type
+To help Cyclistic increase its number of annual memberships by identifying:
+- How casual riders differ from members in ride behavior
+- Which usage patterns indicate conversion potential
+- What data-driven strategies could support targeted marketing campaigns
 
 ---
 
-## Data Cleaning and Processing
+## Business Questions
 
-- Removed duplicates and null values
-- Filtered out records with negative ride times
-- Standardized column names
-- Added calculated fields:
-  - Ride length
-  - Day of the week
-  - Ride type summary
+- Do members and casual riders differ by ride duration, time of day, or day of week?
+- Are there specific neighborhoods or start stations where casual riders concentrate?
+- Can behavioral patterns suggest when and where to promote membership upgrades?
 
 ---
 
-## Analysis and Visualization
+## Tools and Techniques
 
-- Analyzed trip duration by rider type
-- Charted ride frequency by weekday and hour
-- Identified peak seasons and time-of-day usage
-- Created dashboards in Tableau to visualize trends
-
----
-
-## Key Findings
-
-- Casual riders take longer rides, especially on weekends
-- Members ride more frequently on weekdays, likely for commuting
-- Casual usage is often recreational, member usage is utilitarian
+- Python and pandas for data cleaning and transformation
+- Tableau for data visualization
+- Excel for preliminary exploration and sanity checks
 
 ---
 
-## Recommendations
+## Data Preparation
 
-1. **Weekend Trials:** Offer weekend discounts to convert casual users  
-2. **Targeted Ads:** Use ride behavior data to promote the value of memberships  
-3. **Commuter Focus:** Emphasize weekday time savings and convenience for office workers  
+- Combined and cleaned 12 monthly `.csv` ride files
+- Removed duplicates, test accounts, and incomplete records
+- Engineered new features: ride duration, ride day, day part (commute/weekend), and user type
+- Aggregated ride metrics by member type, weekday, station, and rideable type
 
 ---
 
-## Tools and Skills Used
+## Analysis Highlights
 
-- **SQL (MySQL Workbench):** For data aggregation and validation  
-- **Excel:** For cleaning and preprocessing  
-- **Tableau:** For data storytelling through interactive dashboards
+- Casual riders mostly ride on weekends, during midday hours, and take shorter trips
+- Members tend to ride on weekdays, often during rush hours, and take longer trips overall
+- High-volume casual usage clusters around tourist-heavy start stations (e.g., parks, waterfronts)
+
+---
+
+## Marketing Strategy Recommendations
+
+Based on behavior segmentation, Cyclistic could consider:
+
+- **Targeted Trial Campaigns:** Promote weekday-based trial memberships to casual users who ride frequently
+- **Tourism Partnerships:** Collaborate with hotels, museums, and tourist hubs to offer casual riders discounts that lead to conversion
+- **Commute Incentives:** Highlight benefits of annual membership for weekday commuting (longer ride time, predictable pricing)
+- **Geo-targeted Ads:** Use high-casual-traffic stations as zones for physical or digital ads promoting upgrade offers
+
+---
+
+## Key Takeaways
+
+- Behavioral segmentation can reveal conversion opportunities beyond surface metrics
+- Casual riders are not a monolith — some resemble members in habits and are good upgrade candidates
+- Strategic marketing, backed by trip data, could convert a subset of high-value casual riders
+- This project demonstrates how data analytics can support customer lifecycle strategy
+
+---
+
+## Contact
+
+Created by [Jake Ma](https://www.linkedin.com/in/jake-ma-0a4278282/)  
+Let’s connect if you’re hiring or want to discuss growth strategy through behavioral analytics.
